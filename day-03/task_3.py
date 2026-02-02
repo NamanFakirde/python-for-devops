@@ -19,7 +19,7 @@ def threshold_values():
                 cpu_threshold = int(input("Enter threshold value of CPU: "))
                 disk_threshold = int(input("Enter threshold value of DISK: "))
                 memory_threshold = int(input("Enter threshold value of MEMORY: "))
-                if cpu_threshold or disk_threshold or memory_threshold > 90:
+                if cpu_threshold > 90 or disk_threshold > 90 or memory_threshold > 90:
                     raise ValueError("Enter valid number")
                 else:
                     pass
