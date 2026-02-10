@@ -1,0 +1,12 @@
+{
+    "buckets": [
+        "naman-fakirde",
+        "naman-fakirde-1"
+    ],
+    "instances": [
+        {
+            "InstanceId": "i-00e9cdf77b11d0cf7",
+            "State": "running"
+        }
+    ]
+}
