@@ -4,7 +4,7 @@ from services.ec2_service import get_instances
 
 router = APIRouter()
 
-@router.get("/s3")
+@router.get("/s3")              # Creating decorator 
 def s3_bucket_info():
     """
     This function fetches the S3 buckets from the AWS

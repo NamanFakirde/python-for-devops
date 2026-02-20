@@ -21,4 +21,4 @@ def get_instances():
             })
     return instance_details
 
-get_instances()
+# get_instances()       

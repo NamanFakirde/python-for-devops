@@ -5,9 +5,9 @@ def get_system_meterics():
     """
     Function to fetch the system metrics such as CPU, memory, disk etc
     """    
-    cpu_threshold = 80
-    disk_threshold = 85
-    memory_threshold = 75
+    cpu_threshold = 80      # can be changed as per requirement
+    disk_threshold = 85     # can be changed as per requirement
+    memory_threshold = 75   # can be changed as per requirement
 
     cpu_percent = psutil.cpu_percent(interval=1)
     disk_percent = psutil.disk_usage('/').percent
